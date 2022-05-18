@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Vitrine />} />
+      <Route path="/Kirk" element={<Vitrine />} />
       <Route path="produit" element={<Products />} />
       <Route path="vitrine" element={<Vitrine />} />
       <Route path="contact" element={<Contact />} />
