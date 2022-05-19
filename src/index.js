@@ -13,9 +13,9 @@ root.render(
     <Routes>
       <Route path="/" element={<Vitrine />} />
       <Route path="/Kirk" element={<Vitrine />} />
-      <Route path="produit" element={<Products />} />
-      <Route path="vitrine" element={<Vitrine />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="/Kirk/produit" element={<Products />} />
+      <Route path="/kirk/vitrine" element={<Vitrine />} />
+      <Route path="/kirk/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );

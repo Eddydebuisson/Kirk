@@ -101,8 +101,8 @@ function addme(){
  })}
    </datalist>
    <nav>
-     <a href="/vitrine">Vitrine</a>
-     <a href="/contact">Contact</a>
+     <a href="/Kirk/vitrine">Vitrine</a>
+     <a href="/Kirk/contact">Contact</a>
    </nav>
  </header>
 

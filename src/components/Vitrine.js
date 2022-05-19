@@ -107,9 +107,9 @@ function Vitrine() {
     <footer>
       <img src="img/kirkCouleur.png" alt="" />
       <nav>
-        <a href="/boutique">Boutique</a>
-        <a href="/contact">Contact</a>
-        <a href="/vitrine">À propos</a>
+        <a href="/Kirk/boutique">Boutique</a>
+        <a href="/Kirk/contact">Contact</a>
+        <a href="/Kirk/vitrine">À propos</a>
       </nav>
       <div className="copyrights">
         <p>Copyright © 2022 · Registered in France.</p>
