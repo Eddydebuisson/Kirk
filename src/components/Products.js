@@ -17,7 +17,7 @@ function Products() {
 
   const getAllData = () => {
 
-    axios.get("/db/products.json")
+    axios.get("https://raw.githubusercontent.com/Eddydebuisson/Kirk/main/public/db/products.json")
     .then(res => {
       const p = res.data;
       setposts( p );
