@@ -11,7 +11,7 @@ function Contact() {
       <nav>
         <a href="/Kirk/produit">Boutique</a>
         <a href="/Kirk/vitrine">Vitrine</a>
-        <a href="/Kirk/contact">Contact</a>
+        <a href="/kirk/contact">Contact</a>
       </nav>
     </header>
             <div className="formulaire">

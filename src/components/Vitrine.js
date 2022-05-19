@@ -5,8 +5,8 @@ function Vitrine() {
     <header>
       <img src="img/horizontalBlanc.png" alt="PROUT" />
       <nav>
-        <a href="/produit">Boutique</a>
-        <a href="/contact">Contact</a>
+        <a href="/Kirk/produit">Boutique</a>
+        <a href="/Kirk/contact">Contact</a>
       </nav>
     </header>
 
