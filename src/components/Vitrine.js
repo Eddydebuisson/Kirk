@@ -1,8 +1,3 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import { createPortal } from 'react-dom';
-import { typeImplementation } from '@testing-library/user-event/dist/type/typeImplementation';
-
 
 function Vitrine() {
   return (
@@ -12,7 +7,6 @@ function Vitrine() {
       <nav>
         <a href="/produit">Boutique</a>
         <a href="/contact">Contact</a>
-        <a href="">À propos</a>
       </nav>
     </header>
 
@@ -114,8 +108,8 @@ function Vitrine() {
       <img src="img/kirkCouleur.png" alt="" />
       <nav>
         <a href="/boutique">Boutique</a>
-        <a href="">Contact</a>
-        <a href="">À propos</a>
+        <a href="/contact">Contact</a>
+        <a href="/vitrine">À propos</a>
       </nav>
       <div className="copyrights">
         <p>Copyright © 2022 · Registered in France.</p>

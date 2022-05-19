@@ -64,7 +64,7 @@ function addme(){
 
 
  function reset(id){
-  const remove = panier.filter( i => i.id != id.target.id);
+  const remove = panier.filter( i => i.id !== id.target.id);
   setpanier(remove);
 
  }
@@ -103,7 +103,6 @@ function addme(){
    <nav>
      <a href="/vitrine">Vitrine</a>
      <a href="/contact">Contact</a>
-     <a href="">À propos</a>
    </nav>
  </header>
 
@@ -132,6 +131,7 @@ function addme(){
     } else if (post.title.toLowerCase().includes(product.toLowerCase())) {
       return post;
     }
+    return post;
   }).map( p => {
         return (
 
@@ -140,7 +140,7 @@ function addme(){
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>
             </div>
-                <img src={p.image} ></img>
+                <img src={p.image} alt="produit" ></img>
             <div>
                 <p>{p.prix.toFixed(2)} €</p>
                 <div className='boutons'>

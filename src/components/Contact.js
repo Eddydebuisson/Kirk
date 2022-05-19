@@ -12,7 +12,6 @@ function Contact() {
         <a href="/produit">Boutique</a>
         <a href="/vitrine">Vitrine</a>
         <a href="/contact">Contact</a>
-        <a href="">À propos</a>
       </nav>
     </header>
             <div className="formulaire">
