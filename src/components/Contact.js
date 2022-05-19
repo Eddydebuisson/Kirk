@@ -1,5 +1,5 @@
 
-
+import { NavLink } from 'react-router-dom'
 
 function Contact() {
 
@@ -9,9 +9,9 @@ function Contact() {
             <header>
       <img src="img/horizontalBlanc.png" alt="PROUT" />
       <nav>
-        <a href="/Kirk/produit">Boutique</a>
-        <a href="/Kirk/vitrine">Vitrine</a>
-        <a href="/kirk/contact">Contact</a>
+        <NavLink to="/produit">Boutique</NavLink>
+        <NavLink to="/vitrine">Vitrine</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </nav>
     </header>
             <div className="formulaire">

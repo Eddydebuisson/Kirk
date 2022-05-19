@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import { NavLink } from 'react-router-dom'
 
 
 function Products() {
@@ -101,8 +101,8 @@ function addme(){
  })}
    </datalist>
    <nav>
-     <a href="/Kirk/vitrine">Vitrine</a>
-     <a href="/Kirk/contact">Contact</a>
+     <NavLink to="/vitrine">Vitrine</NavLink>
+     <NavLink to="/contact">Contact</NavLink>
    </nav>
  </header>
 

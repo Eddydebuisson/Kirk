@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 
 function Vitrine() {
   return (
@@ -5,8 +6,8 @@ function Vitrine() {
     <header>
       <img src="img/horizontalBlanc.png" alt="PROUT" />
       <nav>
-        <a href="/Kirk/produit">Boutique</a>
-        <a href="/Kirk/contact">Contact</a>
+        <NavLink to="/produit">Boutique</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </nav>
     </header>
 
@@ -107,9 +108,9 @@ function Vitrine() {
     <footer>
       <img src="img/kirkCouleur.png" alt="" />
       <nav>
-        <a href="/Kirk/boutique">Boutique</a>
-        <a href="/Kirk/contact">Contact</a>
-        <a href="/Kirk/vitrine">À propos</a>
+        <NavLink to="/boutique">Boutique</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/vitrine">À propos</NavLink>
       </nav>
       <div className="copyrights">
         <p>Copyright © 2022 · Registered in France.</p>
